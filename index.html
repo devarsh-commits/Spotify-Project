@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="icon" sizes="32x32" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- header section starts here -->
+    <div class="nav flex align-itm ">
+        <div class="leftnav flex">
+            <div class="hamburger">
+                <img src="img/hamburg.svg" alt="" class="c-svg">
+            </div>
+            <img src="img/logo.svg" alt="" class="c-svg logo ">
+            <div class="img/circle">
+                <img src="img/home.svg" alt="" class="c-svg home">
+            </div>
+            <div class="Searchbox">
+                <img src="img/search.svg" alt="" class="c-svg slogo">
+                <img src="img/Bbrowse.svg" alt="" class="c-svg brow-s">
+                <input type="text" placeholder="Search the song you like...." </div>
+
+            </div>
+            <div class="rightnav">
+                <div class="rn1 align-itm">
+                    <ul class="flex align-itm txtdeco">
+                        <li><a href="/">Premium</a></li>
+                        <li><a href="/">Support</a></li>
+                        <li><a href="/">Download</a></li>
+                    </ul>
+                </div>
+                <h1>|</h1>
+                <div class="rn2 flex align-itm">
+                    <ul class="flex">
+                        <li class="flex align-itm"><img src="img/install.svg" alt="" class="c-svg"><a href="/">Install
+                                app</a></li>
+                        <li><a href="/">Sign Up</a></li>
+                    </ul>
+                    <div class="button"><a href="/">Login</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container flex">
+        <div class="box2-side" id="b2">
+            <div class="library flex align-itm">
+                <h1 class="font">Your Library</h1>
+                <div class="img flex justify-cont"> <img src="img/browse.svg" alt="" class="invert"></div>
+            </div>
+            <div class="playlist font">
+                <div class="albmname" id="alb"></div>
+                <ol>
+                    <li>
+                        <img src="img/music.svg" alt="" class="c-svg">
+                        <div class="info">Song name</div>
+                        <div class="flex">Play Now <img src="img/splay.svg" alt="" class="c-svg"></div>
+                    </li>
+                </ol>
+            </div>
+            <div class="terms">
+                <div class="cont">
+                    <div class="box">Legal</div>
+                    <div class="box">Satey & Privacy Concerns</div>
+                    <div class="box">Privacy Policy</div>
+                    <div class="box">Cookies</div>
+                    <div class="box">About Ads</div>
+                    <div class="box">Accessbility</div>
+                </div>
+                <a href="/">Cookies</a>
+                <div class="button font"><img src="img/lang.svg" alt="" width="20px" class="c-svg">English</div>
+                <div class="owner font"> 2025 Devarsh Dubey. All rights reserved</div>
+            </div>
+        </div>
+        <div class="box"></div>
+        <div class="box1-main">
+            <div class="SpotifyPlaylist">
+                <h1>Popular albums and singles</h1>
+                <div class="cardcontainer">
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="abvbar flex font">
+                    <div class="songinfo"></div>
+                    <div class="icons flex align-itm justify-cont c-svg">
+                        <img id="prev" src="img/previ.svg" alt="">
+                        <img id="play" src="img/splay.svg" alt="">
+                        <img id="next" src="img/next.svg" alt="">
+                    </div>
+                    <div class="sngtm-vol flex">
+                        <div class="songtime"></div>
+                        <div class="volume">
+                            <img id="vol" src="img/volume.svg" alt="" class="volicon c-svg" width="30px">
+                            <input type="range" name="volume" class="range">
+                        </div>
+                    </div>
+                </div>
+                <div class="seekbar">
+                    <div class="crcle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

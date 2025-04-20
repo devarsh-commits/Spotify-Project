@@ -1,0 +1,30 @@
+.c-svg{
+    filter: invert();
+}
+.flex{
+    display: flex;
+}
+.justify-cont{
+    justify-content: center;
+}
+.align-itm{
+    align-items: center;
+}
+.txtdeco{
+    text-decoration: none;
+}
+.bg-main{
+    background-color:  #121212;
+}
+.bg-sub{
+    background-color: #1f1f1f;
+}
+.font{
+    font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif);;
+}
+.invert{
+    filter: invert(1);
+}
+.wrap{
+    white-space: nowrap;
+}
