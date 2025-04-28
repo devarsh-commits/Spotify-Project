@@ -14,6 +14,4 @@ I’m excited to share my latest project — a Spotify Clone built using HTML, C
 
 This project helped me sharpen my front-end development skills, work with dynamic data rendering, and better understand UI/UX principles.
 
-Check out the project on GitHub  and I’d love to hear your feedback! 🙌
-
 #WebDevelopment #JavaScript #SpotifyClone #FrontendDev #HTML #CSS #DynamicUI #100DaysOfCode #LinkedInProjects
